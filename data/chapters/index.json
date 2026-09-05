@@ -2,18 +2,96 @@
   "course": "Cambridge A1 Movers",
   "tagline": "From words to pictures, chunks, sentences and stories.",
   "chapters": [
-    { "id": "ab", "letters": "A - B", "title": "Billy and the Toy Bear", "words": 44, "status": "ready" },
-    { "id": "c",  "letters": "C",     "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "de", "letters": "D - E", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "fg", "letters": "F - G", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "hi", "letters": "H - I", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "jl", "letters": "J - L", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "mn", "letters": "M - N", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "op", "letters": "O - P", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "qr", "letters": "Q - R", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "s",  "letters": "S",     "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "t",  "letters": "T",     "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "uw", "letters": "U - W", "title": "Coming soon", "words": 0, "status": "soon" },
-    { "id": "xz", "letters": "X - Z", "title": "Coming soon", "words": 0, "status": "soon" }
+    {
+      "id": "ab",
+      "letters": "A - B",
+      "title": "Billy and the Toy Bear",
+      "words": 44,
+      "status": "ready"
+    },
+    {
+      "id": "c",
+      "letters": "C",
+      "title": "Charlie, Clare and the Monkey",
+      "words": 36,
+      "status": "ready"
+    },
+    {
+      "id": "de",
+      "letters": "D - E",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "fg",
+      "letters": "F - G",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "hi",
+      "letters": "H - I",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "jl",
+      "letters": "J - L",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "mn",
+      "letters": "M - N",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "op",
+      "letters": "O - P",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "qr",
+      "letters": "Q - R",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "s",
+      "letters": "S",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "t",
+      "letters": "T",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "uw",
+      "letters": "U - W",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    },
+    {
+      "id": "xz",
+      "letters": "X - Z",
+      "title": "Coming soon",
+      "words": 0,
+      "status": "soon"
+    }
   ]
 }
