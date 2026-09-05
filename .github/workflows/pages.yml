@@ -23,10 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # enablement turns Pages on the first time this runs, so no manual setup.
+      # Pages must already be on, with Settings -> Pages -> Source set to
+      # GitHub Actions. The workflow token cannot turn it on by itself:
+      # configure-pages with enablement returns "Resource not accessible by
+      # integration" on this repository.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       # The site is plain static files at the repo root; nothing to build.
       - uses: actions/upload-pages-artifact@v3
