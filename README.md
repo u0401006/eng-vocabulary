@@ -52,6 +52,16 @@ python3 -m http.server 8000
 Read-aloud uses the browser's own speech engine (`en-GB` when the device has it).
 No audio files, no network calls.
 
+## Publishing
+
+`.github/workflows/pages.yml` deploys the site on every push to `main`.
+
+Pages has to be switched on once by hand first: **Settings → Pages → Build and
+deployment → Source: GitHub Actions**. The workflow token is not allowed to do
+this for the repository, so until it is set the deploy job stops at
+`Create Pages site failed`. After switching it on, re-run the workflow from the
+Actions tab and the site goes live at `https://<user>.github.io/eng-vocabulary/`.
+
 ## Adding a chapter
 
 1. Write `data/chapters/<id>.json` — the format is described in `data/schema.md`.
