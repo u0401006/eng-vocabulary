@@ -54,13 +54,14 @@ No audio files, no network calls.
 
 ## Publishing
 
-`.github/workflows/pages.yml` deploys the site on every push to `main`.
+The site is published with GitHub Pages straight from the repository: **Settings
+→ Pages → Source: Deploy from a branch**, branch `main`, folder `/ (root)`.
+Every push to `main` republishes it, with no build step and no workflow —
+these are plain static files, so there is nothing to compile.
 
-Pages has to be switched on once by hand first: **Settings → Pages → Build and
-deployment → Source: GitHub Actions**. The workflow token is not allowed to do
-this for the repository, so until it is set the deploy job stops at
-`Create Pages site failed`. After switching it on, re-run the workflow from the
-Actions tab and the site goes live at `https://<user>.github.io/eng-vocabulary/`.
+`.nojekyll` is there to stop Jekyll from processing the files on the way out.
+
+Live at `https://<user>.github.io/eng-vocabulary/`.
 
 ## Adding a chapter
 
